@@ -10,6 +10,7 @@ project(subscriber_package)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
+  publisher_package
 #  LIBRARIES publisher_package
 #  CATKIN_DEPENDS roscpp std_msgs
 #  DEPENDS system_lib
